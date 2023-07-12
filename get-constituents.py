@@ -38,5 +38,6 @@ def get_constituents_csi300():
 
 if __name__ == '__main__':
     df = get_constituents_csi300()
-    df.to_csv('constituents-sci300.csv')
+    df.to_csv('data/constituents-csi300.csv', index=False)
+    df.to_json('data/constituents-csi300.json', orient='records')
 
