@@ -21,7 +21,7 @@ All symbols are consistent with those in [Yahoo Finance](https://finance.yahoo.c
 Simply use the links above. You probably have noticed the URLs have some pattern:
 
 ```sh
-wget https://yfiua.github.io/index-constituents/constituents-{$CODE}.{$FORMAT}
+wget https://yfiua.github.io/index-constituents/constituents-$CODE.$FORMAT
 ```
 
 ### Use in your program
@@ -41,8 +41,14 @@ Check `requirements.txt`. Run:
 ./get-constituents.py
 ```
 
-### Historical data
-TBA
+## Historical data
+The historical index constituents are archived at:
+
+```sh
+https://yfiua.github.io/index-constituents/$YYYY/$MM/constituents-$CODE.$FORMAT
+```
+
+By default we update the index constituents monthly (usually on the first day).
 
 ## Data source
 * [乌龟量化](https://wglh.com/)
