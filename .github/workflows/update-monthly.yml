@@ -1,6 +1,9 @@
 name: update-monthly
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 1 * *"
 
 jobs:
   build:
