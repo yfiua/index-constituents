@@ -1,9 +1,6 @@
 name: update-monthly
 
-on:
-  release:
-    branches: [ "master" ]
-    types: [ "published" ]
+on: workflow_dispatch
 
 jobs:
   build:
