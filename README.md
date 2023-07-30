@@ -21,17 +21,24 @@ All symbols are consistent with those in [Yahoo Finance](https://finance.yahoo.c
 Simply use the links above. You probably have noticed the URLs have some pattern:
 
 ```sh
-    wget https://yfiua.github.io/index-constituents/constituents-{CODE}.{FORMAT}
+wget https://yfiua.github.io/index-constituents/constituents-{$CODE}.{$FORMAT}
 ```
 
 ### Use in your program
 Using Python as an example:
 
 ```python
-    import pandas as pd
+import pandas as pd
 
-    url = "https://yfiua.github.io/index-constituents/constituents-csi300.csv"
-    df = pd.read_csv(url)
+url = "https://yfiua.github.io/index-constituents/constituents-csi300.csv"
+df = pd.read_csv(url)
+```
+
+### Build yourself
+Check `requirements.txt`. Run:
+
+```sh
+./get-constituents.py
 ```
 
 ### Historical data
