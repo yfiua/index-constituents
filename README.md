@@ -1,4 +1,7 @@
 # index-constituents
+
+[![update-monthly](https://github.com/yfiua/index-constituents/workflows/update-monthly/badge.svg)](https://github.com/yfiua/index-constituents/actions?query=workflow:%22update-monthly%22)
+
 Get the current and historical constituents of popular stock indices.
 All symbols are consistent with those in [Yahoo Finance](https://finance.yahoo.com/).
 
