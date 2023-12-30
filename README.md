@@ -52,10 +52,13 @@ To get the historical index constituents, use the following URL:
 https://yfiua.github.io/index-constituents/$YYYY/$MM/constituents-$CODE.$FORMAT
 ```
 
-By default we update the data monthly (usually on the first day).
+By default we automatically update the data monthly (usually on the first day).
 Historical data of a particular index is only available from the month we start to include it.
 
 ## Data source
 * [乌龟量化](https://wglh.com/)
 * [Slickcharts](https://www.slickcharts.com/)
 * [Bloomberg](https://www.bloomberg.com/)
+
+## Author
+* [Yfiua](https://github.com/yfiua)
