@@ -17,65 +17,98 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
+  padding: 5px;
 }
 </style>
 <body>
   <h1>Get index constituents</h1>
 
-  <h2>Currently supported indices</h2>
+  <p>Get the current and historical constituents of popular stock indices. All symbols are consistent with those in <a href="https://finance.yahoo.com/">Yahoo Finance</a>.</p>
 
+  <h2>Currently supported indices</h2>
   <table>
-    <tr>
-      <th style="width:30%">Code</th>
-      <th style="width:40%">Name</th>
-      <th style="width:30%">Download</th>
-    </tr>
-    <tr>
-      <td>csi300</td>
-      <td>CSI 300 (沪深300)</td>
-      <td><a href="constituents-csi300.json" target="_blank">json</a> / <a href="constituents-csi300.csv" target="_blank">csv</a></td>
-    </tr>
-    <tr>
-      <td>sse</td>
-      <td>SSE (上证综指)</td>
-      <td><a href="constituents-sse.json" target="_blank">json</a> / <a href="constituents-sse.csv" target="_blank">csv</a></td>
-    </tr>
-    <tr>
-      <td>szse</td>
-      <td>SZSE (深证成指)</td>
-      <td><a href="constituents-szse.json" target="_blank">json</a> / <a href="constituents-szse.csv" target="_blank">csv</a></td>
-    </tr>
-    <tr>
-      <td>nasdaq100</td>
-      <td>NASDAQ 100</td>
-      <td><a href="constituents-nasdaq100.json" target="_blank">json</a> / <a href="constituents-nasdaq100.csv" target="_blank">csv</a></td>
-    </tr>
-    <tr>
-      <td>sp500</td>
-      <td>S&P 500</td>
-      <td><a href="constituents-sp500.json" target="_blank">json</a> / <a href="constituents-sp500.csv" target="_blank">csv</a></td>
-    </tr>
-    <tr>
-      <td>dowjones</td>
-      <td>Dow Jones</td>
-      <td><a href="constituents-dowjones.json" target="_blank">json</a> / <a href="constituents-dowjones.csv" target="_blank">csv</a></td>
-    </tr>
-    <tr>
-      <td>dax</td>
-      <td>DAX</td>
-      <td><a href="constituents-dax.json" target="_blank">json</a> / <a href="constituents-dax.csv" target="_blank">csv</a></td>
-    </tr>
-    <tr>
-      <td>hsi</td>
-      <td>HSI (恒生指数)</td>
-      <td><a href="constituents-hsi.json" target="_blank">json</a> / <a href="constituents-hsi.csv" target="_blank">csv</a></td>
-    </tr>
-    <tr>
-      <td>ftse100</td>
-      <td>FTSE 100</td>
-      <td><a href="constituents-ftse100.json" target="_blank">json</a> / <a href="constituents-ftse100.csv" target="_blank">csv</a></td>
-    </tr>
+    <thead>
+      <tr class="header">
+        <th style="text-align: left;">Code</th>
+        <th style="text-align: left;">Name</th>
+        <th style="text-align: left;">Start</th>
+        <th style="text-align: left;">Download</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="odd">
+        <td style="text-align: left;">csi300</td>
+        <td style="text-align: left;">CSI 300 (沪深300)</td>
+        <td style="text-align: left;">2023/07</td>
+        <td style="text-align: left;"><a href="https://yfiua.github.io/index-constituents/constituents-csi300.json">json</a> / <a href="https://yfiua.github.io/index-constituents/constituents-csi300.csv">csv</a></td>
+      </tr>
+      <tr class="even">
+        <td style="text-align: left;">sse</td>
+        <td style="text-align: left;">SSE (上证综指)</td>
+        <td style="text-align: left;">2023/07</td>
+        <td style="text-align: left;"><a href="https://yfiua.github.io/index-constituents/constituents-sse.json">json</a> / <a href="https://yfiua.github.io/index-constituents/constituents-sse.csv">csv</a></td>
+      </tr>
+      <tr class="odd">
+        <td style="text-align: left;">szse</td>
+        <td style="text-align: left;">SZSE (深证成指)</td>
+        <td style="text-align: left;">2023/07</td>
+        <td style="text-align: left;"><a href="https://yfiua.github.io/index-constituents/constituents-szse.json">json</a> / <a href="https://yfiua.github.io/index-constituents/constituents-szse.csv">csv</a></td>
+      </tr>
+      <tr class="even">
+        <td style="text-align: left;">nasdaq100</td>
+        <td style="text-align: left;">NASDAQ 100</td>
+        <td style="text-align: left;">2023/07</td>
+        <td style="text-align: left;"><a href="https://yfiua.github.io/index-constituents/constituents-nasdaq100.json">json</a> / <a href="https://yfiua.github.io/index-constituents/constituents-nasdaq100.csv">csv</a></td>
+      </tr>
+      <tr class="odd">
+        <td style="text-align: left;">sp500</td>
+        <td style="text-align: left;">S&amp;P 500</td>
+        <td style="text-align: left;">2023/07</td>
+        <td style="text-align: left;"><a href="https://yfiua.github.io/index-constituents/constituents-sp500.json">json</a> / <a href="https://yfiua.github.io/index-constituents/constituents-sp500.csv">csv</a></td>
+      </tr>
+      <tr class="even">
+        <td style="text-align: left;">dowjones</td>
+        <td style="text-align: left;">Dow Jones</td>
+        <td style="text-align: left;">2023/07</td>
+        <td style="text-align: left;"><a href="https://yfiua.github.io/index-constituents/constituents-dowjones.json">json</a> / <a href="https://yfiua.github.io/index-constituents/constituents-dowjones.csv">csv</a></td>
+      </tr>
+      <tr class="odd">
+        <td style="text-align: left;">dax</td>
+        <td style="text-align: left;">DAX</td>
+        <td style="text-align: left;">2023/07</td>
+        <td style="text-align: left;"><a href="https://yfiua.github.io/index-constituents/constituents-dax.json">json</a> / <a href="https://yfiua.github.io/index-constituents/constituents-dax.csv">csv</a></td>
+      </tr>
+      <tr class="even">
+        <td style="text-align: left;">hsi</td>
+        <td style="text-align: left;">HSI (恒生指数)</td>
+        <td style="text-align: left;">2023/07</td>
+        <td style="text-align: left;"><a href="https://yfiua.github.io/index-constituents/constituents-hsi.json">json</a> / <a href="https://yfiua.github.io/index-constituents/constituents-hsi.csv">csv</a></td>
+      </tr>
+      <tr class="odd">
+        <td style="text-align: left;">ftse100</td>
+        <td style="text-align: left;">FTSE 100</td>
+        <td style="text-align: left;">2023/07</td>
+        <td style="text-align: left;"><a href="https://yfiua.github.io/index-constituents/constituents-ftse100.json">json</a> / <a href="https://yfiua.github.io/index-constituents/constituents-ftse100.csv">csv</a></td>
+      </tr>
+    </tbody>
   </table>
+
+  <h2 id="historical-data">Historical data</h2>
+  <p>To get the historical index constituents, use the following URL:</p>
+  <div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="ex">https</span>://yfiua.github.io/index-constituents/<span class="va">$YYYY</span>/<span class="va">$MM</span>/constituents-<span class="va">$CODE</span>.<span class="va">$FORMAT</span></span></code></pre></div>
+  <p>By default we automatically update the data monthly (usually on the first day). Historical data of a particular index is only available from the month we start to include it.</p>
+
+  <h2 id="data-source">Data source</h2>
+  <ul>
+    <li><a href="https://wglh.com/">乌龟量化</a></li>
+    <li><a href="https://www.slickcharts.com/">Slickcharts</a></li>
+    <li><a href="https://www.bloomberg.com/">Bloomberg</a></li>
+  </ul>
+
+  <h2 id="author">Author</h2>
+  <ul>
+    <li><a href="https://github.com/yfiua">Yfiua</a></li>
+  </ul>
 
   <h2><a href="https://github.com/yfiua/index-constituents">Source code</a></h2>
 </body>
