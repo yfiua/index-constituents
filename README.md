@@ -11,6 +11,8 @@ All symbols are consistent with those in [Yahoo Finance](https://finance.yahoo.c
 | Code      |  Name             |  Start   | Download                                                                                                                                                      |
 |:----------|:------------------|:---------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | csi300    | CSI 300 (沪深300) | 2023/07  | [json](https://yfiua.github.io/index-constituents/constituents-csi300.json) / [csv](https://yfiua.github.io/index-constituents/constituents-csi300.csv)       |
+| csi500    | CSI 500 (中证500)   | 2024/01  | [json](https://yfiua.github.io/index-constituents/constituents-csi500.json) / [csv](https://yfiua.github.io/index-constituents/constituents-csi500.csv)       |
+| csi1000   | CSI 1000 (中证1000) | 2024/01  | [json](https://yfiua.github.io/index-constituents/constituents-csi1000.json) / [csv](https://yfiua.github.io/index-constituents/constituents-csi1000.csv)     |
 | sse       | SSE (上证综指)    | 2023/07  | [json](https://yfiua.github.io/index-constituents/constituents-sse.json) / [csv](https://yfiua.github.io/index-constituents/constituents-sse.csv)             |
 | szse      | SZSE (深证成指)   | 2023/07  | [json](https://yfiua.github.io/index-constituents/constituents-szse.json) / [csv](https://yfiua.github.io/index-constituents/constituents-szse.csv)           |
 | nasdaq100 | NASDAQ 100        | 2023/07  | [json](https://yfiua.github.io/index-constituents/constituents-nasdaq100.json) / [csv](https://yfiua.github.io/index-constituents/constituents-nasdaq100.csv) |

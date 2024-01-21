@@ -64,6 +64,16 @@ def get_constituents_csi300():
     url = 'https://wglh.com/ChinaIndicesCon/SH000300/'
     return get_constituents_from_wglh(url)
 
+# 中证500
+def get_constituents_csi500():
+    url = 'https://wglh.com/ChinaIndicesCon/SH000905/'
+    return get_constituents_from_wglh(url)
+
+# 中证1000
+def get_constituents_csi1000():
+    url = 'https://wglh.com/ChinaIndicesCon/SH000852/'
+    return get_constituents_from_wglh(url)
+
 # 上证指数
 def get_constituents_sse():
     url = 'https://wglh.com/ChinaIndicesCon/SH000001/'
@@ -194,6 +204,22 @@ if __name__ == '__main__':
         df.to_json('docs/constituents-csi300.json', orient='records')
     except:
         print('Failed to fetch the constituents of CSI 300.')
+
+    print('Fetching the constituents of CSI 500...')
+    try:
+        df = get_constituents_csi500()
+        df.to_csv('docs/constituents-csi500.csv', index=False)
+        df.to_json('docs/constituents-csi500.json', orient='records')
+    except:
+        print('Failed to fetch the constituents of CSI 500.')
+
+    print('Fetching the constituents of CSI 1000...')
+    try:
+        df = get_constituents_csi1000()
+        df.to_csv('docs/constituents-csi1000.csv', index=False)
+        df.to_json('docs/constituents-csi1000.json', orient='records')
+    except:
+        print('Failed to fetch the constituents of CSI 1000.')
 
     print('Fetching the constituents of SSE...')
     try:
