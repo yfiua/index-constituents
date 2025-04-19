@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Get index constituents</title>
 </head>
 <!-- Google tag (gtag.js) -->
@@ -109,8 +110,9 @@ table, th, td {
 
   <!-- Include download buttons -->
 
-  <label for="code">Index:</label>
-  <select id="code" onchange="updateButtonState()"></select>
+  <select id="code" onchange="updateButtonState()">
+    <option selected disabled value="">--- select index ---</option>
+  </select>
 
   <label for="year">Year:</label>
   <select id="year" onchange="updateButtonState()"></select>
@@ -168,9 +170,18 @@ table, th, td {
 
     // Update button state based on selected year, month, and index
     function updateButtonState() {
+      const btnJson = document.getElementById("btn-json");
+      const btnCsv = document.getElementById("btn-csv");
+
+      const selectedCode = codeSelect.value;
+      if (!selectedCode) {
+        btnJson.disabled = true;
+        btnCsv.disabled = true;
+        return;
+      }
+
       const year = parseInt(yearSelect.value);
       const month = parseInt(monthSelect.value);
-      const selectedCode = codeSelect.value;
       const index = indexData.find(i => i.code === selectedCode);
 
       const now = new Date();
@@ -184,9 +195,6 @@ table, th, td {
       const isValid =
         selectedDate >= startDate &&
         selectedDate <= latestDate;
-
-      const btnJson = document.getElementById("btn-json");
-      const btnCsv = document.getElementById("btn-csv");
 
       btnJson.disabled = !isValid;
       btnCsv.disabled = !isValid;
@@ -223,7 +231,7 @@ table, th, td {
   </script>
 
   <p>Alternatively, use the following URL:</p>
-  <div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="ex">https</span>://yfiua.github.io/index-constituents/<span class="va">$YYYY</span>/<span class="va">$MM</span>/constituents-<span class="va">$CODE</span>.<span class="va">$FORMAT</span></span></code></pre></div>
+  <code>https://yfiua.github.io/index-constituents/$YYYY/$MM/constituents-$CODE.$FORMAT</code>
   <p>By default we automatically update the data monthly (usually on the first day). Historical data of a particular index is only available from the month we start to include it.</p>
 
   <h2 id="data-source">Data source</h2>
