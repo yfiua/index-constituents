@@ -121,7 +121,7 @@ def get_constituents_dax():
     e = Extractor.from_yaml_string(selector_yml)
 
     url = 'https://www.bloomberg.com/quote/DAX:IND/members'
-    headers = { 'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' }
+    headers = { 'User-Agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' }
     r = requests.get(url, headers=headers)
 
     data = e.extract(r.text)
@@ -153,7 +153,7 @@ def get_constituents_hsi():
     e = Extractor.from_yaml_string(selector_yml)
 
     url = 'https://www.bloomberg.com/quote/HSI:IND/members'
-    headers = { 'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' }
+    headers = { 'User-Agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' }
     r = requests.get(url, headers=headers)
 
     data = e.extract(r.text)
@@ -185,7 +185,7 @@ def get_constituents_ftse100():
     e = Extractor.from_yaml_string(selector_yml)
 
     url = 'https://www.bloomberg.com/quote/UKX:IND/members'
-    headers = { 'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' }
+    headers = { 'User-Agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' }
     r = requests.get(url, headers=headers)
 
     data = e.extract(r.text)
