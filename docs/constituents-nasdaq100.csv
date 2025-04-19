@@ -7,22 +7,22 @@ AVGO,Broadcom Inc
 META,Meta Platforms Inc
 COST,Costco Wholesale Corp
 NFLX,Netflix Inc
-TSLA,Tesla Inc
 GOOGL,Alphabet Inc
+TSLA,Tesla Inc
 GOOG,Alphabet Inc
 TMUS,T-Mobile US Inc
 CSCO,Cisco Systems Inc
 LIN,Linde PLC
-PEP,PepsiCo Inc
 PLTR,Palantir Technologies Inc
+PEP,PepsiCo Inc
 ISRG,Intuitive Surgical Inc
-QCOM,QUALCOMM Inc
-ADBE,Adobe Inc
 INTU,Intuit Inc
-AMD,Advanced Micro Devices Inc
-AMGN,Amgen Inc
-TXN,Texas Instruments Inc
+ADBE,Adobe Inc
+QCOM,QUALCOMM Inc
 BKNG,Booking Holdings Inc
+AMGN,Amgen Inc
+AMD,Advanced Micro Devices Inc
+TXN,Texas Instruments Inc
 GILD,Gilead Sciences Inc
 CMCSA,Comcast Corp
 HON,Honeywell International Inc
@@ -30,71 +30,71 @@ VRTX,Vertex Pharmaceuticals Inc
 ADP,Automatic Data Processing Inc
 AMAT,Applied Materials Inc
 PANW,Palo Alto Networks Inc
-SBUX,Starbucks Corp
 MELI,MercadoLibre Inc
+SBUX,Starbucks Corp
+CRWD,Crowdstrike Holdings Inc
 ADI,Analog Devices Inc
-MU,Micron Technology Inc
+MDLZ,Mondelez International Inc
+KLAC,KLA Corp
+CTAS,Cintas Corp
 INTC,Intel Corp
 LRCX,Lam Research Corp
-KLAC,KLA Corp
-MDLZ,Mondelez International Inc
-APP,AppLovin Corp
-CRWD,Crowdstrike Holdings Inc
-CTAS,Cintas Corp
 ORLY,O'Reilly Automotive Inc
-PDD,PDD Holdings Inc ADR
+MU,Micron Technology Inc
+MSTR,MicroStrategy Inc
 FTNT,Fortinet Inc
+APP,AppLovin Corp
 DASH,DoorDash Inc
 CDNS,Cadence Design Systems Inc
-MSTR,MicroStrategy Inc
-REGN,Regeneron Pharmaceuticals Inc
-SNPS,Synopsys Inc
-MAR,Marriott International Inc/MD
-PYPL,PayPal Holdings Inc
 CEG,Constellation Energy Corp
+SNPS,Synopsys Inc
+PDD,PDD Holdings Inc ADR
+MAR,Marriott International Inc/MD
+REGN,Regeneron Pharmaceuticals Inc
+PYPL,PayPal Holdings Inc
 ROP,Roper Technologies Inc
 ASML,ASML Holding NV
+CPRT,Copart Inc
 AEP,American Electric Power Co Inc
 MNST,Monster Beverage Corp
 ADSK,Autodesk Inc
 CSX,CSX Corp
 PAYX,Paychex Inc
-MRVL,Marvell Technology Inc
-CPRT,Copart Inc
-CHTR,Charter Communications Inc
 ABNB,Airbnb Inc
-WDAY,Workday Inc
-PCAR,PACCAR Inc
-NXPI,NXP Semiconductors NV
+CHTR,Charter Communications Inc
 KDP,Keurig Dr Pepper Inc
-FANG,Diamondback Energy Inc
 EXC,Exelon Corp
+WDAY,Workday Inc
 FAST,Fastenal Co
+PCAR,PACCAR Inc
+ROST,Ross Stores Inc
+MRVL,Marvell Technology Inc
+NXPI,NXP Semiconductors NV
+AXON,Axon Enterprise Inc
+CCEP,Coca-Cola Europacific Partners PLC
+VRSK,Verisk Analytics Inc
+XEL,Xcel Energy Inc
+FANG,Diamondback Energy Inc
 AZN,AstraZeneca PLC ADR
 BKR,Baker Hughes Co
-ROST,Ross Stores Inc
-VRSK,Verisk Analytics Inc
-AXON,Axon Enterprise Inc
-XEL,Xcel Energy Inc
-CCEP,Coca-Cola Europacific Partners PLC
-CTSH,Cognizant Technology Solutions Corp
 EA,Electronic Arts Inc
 TTWO,Take-Two Interactive Software Inc
-GEHC,GE HealthCare Technologies Inc
 KHC,Kraft Heinz Co/The
+CTSH,Cognizant Technology Solutions Corp
+IDXX,IDEXX Laboratories Inc
 TEAM,Atlassian Corp
 ODFL,Old Dominion Freight Line Inc
-LULU,Lululemon Athletica Inc
-IDXX,IDEXX Laboratories Inc
 CSGP,CoStar Group Inc
-DDOG,Datadog Inc
 ZS,Zscaler Inc
-ANSS,ANSYS Inc
+LULU,Lululemon Athletica Inc
+DDOG,Datadog Inc
+GEHC,GE HealthCare Technologies Inc
 DXCM,Dexcom Inc
-MCHP,Microchip Technology Inc
-WBD,Warner Bros Discovery Inc
+ANSS,ANSYS Inc
 TTD,Trade Desk Inc/The
+MCHP,Microchip Technology Inc
 CDW,CDW Corp/DE
+WBD,Warner Bros Discovery Inc
 GFS,GLOBALFOUNDRIES Inc
 BIIB,Biogen Inc
 ON,ON Semiconductor Corp
