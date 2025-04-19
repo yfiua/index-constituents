@@ -106,7 +106,123 @@ table, th, td {
   </table>
 
   <h2 id="historical-data">Historical data</h2>
-  <p>To get the historical index constituents, use the following URL:</p>
+
+  <!-- Include download buttons -->
+
+  <label for="code">Index:</label>
+  <select id="code" onchange="updateButtonState()"></select>
+
+  <label for="year">Year:</label>
+  <select id="year" onchange="updateButtonState()"></select>
+
+  <label for="month">Month:</label>
+  <select id="month" onchange="updateButtonState()"></select>
+
+  <br /><br />
+  <button id="btn-json" onclick="downloadFile('json')">Download JSON</button>
+  <button id="btn-csv" onclick="downloadFile('csv')">Download CSV</button>
+
+  <script>
+    // Populate year dropdown from 2023 to current year
+    const yearSelect = document.getElementById("year");
+    const currentYear = new Date().getFullYear();
+    for (let y = currentYear; y >= 2023; y--) {
+      const opt = document.createElement("option");
+      opt.value = y;
+      opt.textContent = y;
+      yearSelect.appendChild(opt);
+    }
+
+    // Populate month dropdown (01 to 12)
+    const monthSelect = document.getElementById("month");
+    for (let m = 1; m <= 12; m++) {
+      const opt = document.createElement("option");
+      const val = String(m).padStart(2, '0');
+      opt.value = val;
+      opt.textContent = val;
+      monthSelect.appendChild(opt);
+    }
+
+    // Index dropdown
+    const indexData = [
+      { code: "csi300", name: "CSI 300 (沪深300)", start: "2023/07" },
+      { code: "csi500", name: "CSI 500 (中证500)", start: "2024/01" },
+      { code: "csi1000", name: "CSI 1000 (中证1000)", start: "2024/01" },
+      { code: "sse", name: "SSE (上证综指)", start: "2023/07" },
+      { code: "szse", name: "SZSE (深证成指)", start: "2023/07" },
+      { code: "nasdaq100", name: "NASDAQ 100", start: "2023/07" },
+      { code: "sp500", name: "S&P 500", start: "2023/07" },
+      { code: "dowjones", name: "Dow Jones", start: "2023/07" },
+      { code: "dax", name: "DAX", start: "2023/07" },
+      { code: "hsi", name: "HSI (恒生指数)", start: "2023/07" },
+      { code: "ftse100", name: "FTSE 100", start: "2023/07" },
+    ];
+
+    const codeSelect = document.getElementById("code");
+    indexData.forEach(index => {
+      const opt = document.createElement("option");
+      opt.value = index.code;
+      opt.textContent = `${index.name}`;
+      codeSelect.appendChild(opt);
+    });
+
+    // Update button state based on selected year, month, and index
+    function updateButtonState() {
+      const year = parseInt(yearSelect.value);
+      const month = parseInt(monthSelect.value);
+      const selectedCode = codeSelect.value;
+      const index = indexData.find(i => i.code === selectedCode);
+
+      const now = new Date();
+      const currentYear = now.getFullYear();
+      const currentMonth = now.getMonth() + 1;
+
+      const selectedDate = new Date(`${year}-${String(month).padStart(2, '0')}-01`);
+      const startDate = new Date(index.start + "-01");
+      const latestDate = new Date(currentYear, currentMonth, 1); // 2nd of current month
+
+      const isValid =
+        selectedDate >= startDate &&
+        selectedDate <= latestDate;
+
+      const btnJson = document.getElementById("btn-json");
+      const btnCsv = document.getElementById("btn-csv");
+
+      btnJson.disabled = !isValid;
+      btnCsv.disabled = !isValid;
+    }
+
+    async function downloadFile(format) {
+      const year = document.getElementById("year").value;
+      const month = document.getElementById("month").value;
+      const code = document.getElementById("code").value;
+      const fileName = `constituents-${code}.${format}`;
+      const url = `https://yfiua.github.io/index-constituents/${year}/${month}/${fileName}`;
+
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`File not found: ${url}`);
+
+        const blob = await response.blob();
+        const blobUrl = URL.createObjectURL(blob);
+
+        const link = document.createElement("a");
+        link.href = blobUrl;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(blobUrl);
+      } catch (err) {
+        alert("File not found: Historical data of a particular index is only available from the month we start to include it.");
+      }
+    }
+
+    // Trigger state update on initial load
+    updateButtonState();
+  </script>
+
+  <p>Alternatively, use the following URL:</p>
   <div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="ex">https</span>://yfiua.github.io/index-constituents/<span class="va">$YYYY</span>/<span class="va">$MM</span>/constituents-<span class="va">$CODE</span>.<span class="va">$FORMAT</span></span></code></pre></div>
   <p>By default we automatically update the data monthly (usually on the first day). Historical data of a particular index is only available from the month we start to include it.</p>
 
