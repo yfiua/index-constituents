@@ -1,6 +1,7 @@
 # index-constituents
 
 [![update-monthly](https://github.com/yfiua/index-constituents/workflows/update-monthly/badge.svg)](https://github.com/yfiua/index-constituents/actions?query=workflow:%22update-monthly%22)
+[![Website](https://img.shields.io/badge/Visit-Website-blue?logo=github)](https://yfiua.github.io/index-constituents/)
 
 Get the current and historical constituents of popular stock indices.
 All symbols are consistent with those in [Yahoo Finance](https://finance.yahoo.com/).
@@ -58,9 +59,11 @@ By default we automatically update the data monthly (usually on the first day).
 Historical data of a particular index is only available from the month we start to include it.
 
 ## Data source
-* [乌龟量化](https://wglh.com/)
+* [中证指数](http://www.csindex.com.cn/)
+* [深交所](http://www.szse.cn/)
 * [Slickcharts](https://www.slickcharts.com/)
 * [Bloomberg](https://www.bloomberg.com/)
+* [乌龟量化](https://wglh.com/) - deprecated
 
 ## Author
 * [Yfiua](https://github.com/yfiua)
