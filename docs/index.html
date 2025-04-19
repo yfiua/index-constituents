@@ -177,8 +177,8 @@ table, th, td {
       const currentYear = now.getFullYear();
       const currentMonth = now.getMonth() + 1;
 
-      const selectedDate = new Date(`${year}-${String(month).padStart(2, '0')}-01`);
-      const startDate = new Date(index.start + "-01");
+      const selectedDate = new Date(`${year}/${String(month).padStart(2, '0')}/01`);
+      const startDate = new Date(index.start + "/01");
       const latestDate = new Date(currentYear, currentMonth, 1); // 2nd of current month
 
       const isValid =
