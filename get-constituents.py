@@ -2,9 +2,15 @@
 # coding: utf-8
 
 import pandas as pd
+import random
 import requests
+import time
 
 from selectorlib import Extractor
+
+from fake_useragent import UserAgent
+ua = UserAgent()
+n_retries = 5
 
 def get_constituents_from_csindex(url):
     # convert symbol from 'SYMBOL' to 'SYMBOL.SZ' or 'SYMBOL.SS'
@@ -45,7 +51,7 @@ def get_constituents_from_slickcharts(url):
 
     e = Extractor.from_yaml_string(selector_yml)
 
-    headers = { 'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' }
+    headers = { 'User-Agent' : ua.random }
     r = requests.get(url, headers=headers)
 
     data = e.extract(r.text)
@@ -124,7 +130,7 @@ def get_constituents_dax():
     e = Extractor.from_yaml_string(selector_yml)
 
     url = 'https://www.bloomberg.com/quote/DAX:IND/members'
-    headers = { 'User-Agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' }
+    headers = { 'User-Agent' : ua.random }
     r = requests.get(url, headers=headers)
 
     data = e.extract(r.text)
@@ -156,7 +162,7 @@ def get_constituents_hsi():
     e = Extractor.from_yaml_string(selector_yml)
 
     url = 'https://www.bloomberg.com/quote/HSI:IND/members'
-    headers = { 'User-Agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' }
+    headers = { 'User-Agent' : ua.random }
     r = requests.get(url, headers=headers)
 
     data = e.extract(r.text)
@@ -188,7 +194,7 @@ def get_constituents_ftse100():
     e = Extractor.from_yaml_string(selector_yml)
 
     url = 'https://www.bloomberg.com/quote/UKX:IND/members'
-    headers = { 'User-Agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' }
+    headers = { 'User-Agent' : ua.random }
     r = requests.get(url, headers=headers)
 
     data = e.extract(r.text)
@@ -200,6 +206,20 @@ def get_constituents_ftse100():
 
 # main
 if __name__ == '__main__':
+    # distribute requests to bloomberg to avoid overwhelming the server
+    print('Fetching the constituents of DAX...')
+    for i in range(n_retries):
+        try:
+            df = get_constituents_dax()
+            df.to_csv('docs/constituents-dax.csv', index=False)
+            df.to_json('docs/constituents-dax.json', orient='records')
+        except Exception as e:
+            print(f'Attempt {i+1} failed: {e}')
+            time.sleep(random.paretovariate(2) * 5)
+            continue
+        else:
+            break
+
     print('Fetching the constituents of CSI 300...')
     try:
         df = get_constituents_csi300()
@@ -223,6 +243,20 @@ if __name__ == '__main__':
         df.to_json('docs/constituents-csi1000.json', orient='records')
     except:
         print('Failed to fetch the constituents of CSI 1000.')
+
+    time.sleep(random.paretovariate(2) * 25)  # Sleep for a while to avoid overwhelming the server
+    print('Fetching the constituents of Hang Seng Index...')
+    for i in range(n_retries):
+        try:
+            df = get_constituents_hsi()
+            df.to_csv('docs/constituents-hsi.csv', index=False)
+            df.to_json('docs/constituents-hsi.json', orient='records')
+        except Exception as e:
+            print(f'Attempt {i+1} failed: {e}')
+            time.sleep(random.paretovariate(2) * 5)
+            continue
+        else:
+            break
 
     print('Fetching the constituents of SSE...')
     try:
@@ -264,28 +298,18 @@ if __name__ == '__main__':
     except:
         print('Failed to fetch the constituents of Dow Jones.')
 
-    print('Fetching the constituents of DAX...')
-    try:
-        df = get_constituents_dax()
-        df.to_csv('docs/constituents-dax.csv', index=False)
-        df.to_json('docs/constituents-dax.json', orient='records')
-    except:
-        print('Failed to fetch the constituents of DAX.')
-
-    print('Fetching the constituents of Hang Seng Index...')
-    try:
-        df = get_constituents_hsi()
-        df.to_csv('docs/constituents-hsi.csv', index=False)
-        df.to_json('docs/constituents-hsi.json', orient='records')
-    except:
-        print('Failed to fetch the constituents of Hang Seng Index.')
-
+    time.sleep(random.paretovariate(2) * 25)  # Sleep for a while to avoid overwhelming the server
     print('Fetching the constituents of FTSE 100...')
-    try:
-        df = get_constituents_ftse100()
-        df.to_csv('docs/constituents-ftse100.csv', index=False)
-        df.to_json('docs/constituents-ftse100.json', orient='records')
-    except:
-        print('Failed to fetch the constituents of FTSE 100.')
+    for i in range(n_retries):
+        try:
+            df = get_constituents_ftse100()
+            df.to_csv('docs/constituents-ftse100.csv', index=False)
+            df.to_json('docs/constituents-ftse100.json', orient='records')
+        except Exception as e:
+            print(f'Attempt {i+1} failed: {e}')
+            time.sleep(random.paretovariate(2) * 5)
+            continue
+        else:
+            break
 
     print('Done.')
