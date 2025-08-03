@@ -1,102 +1,102 @@
 Symbol,Name
-MSFT,Microsoft
 NVDA,Nvidia
+MSFT,Microsoft
 AAPL,Apple Inc.
 AMZN,Amazon
-GOOG,Alphabet Inc. (Class C)
-GOOGL,Alphabet Inc. (Class A)
 META,Meta Platforms
 AVGO,Broadcom Inc.
+GOOGL,Alphabet Inc. (Class A)
+GOOG,Alphabet Inc. (Class C)
 TSLA,"Tesla, Inc."
 NFLX,Netflix
 COST,Costco
 PLTR,Palantir Technologies
+AMD,Advanced Micro Devices Inc.
 ASML,ASML Holding
 TMUS,T-Mobile US
 CSCO,Cisco
 AZN,AstraZeneca
-LIN,Linde plc
 INTU,Intuit
-ISRG,Intuitive Surgical
+LIN,Linde plc
 PEP,PepsiCo
 BKNG,Booking Holdings
-AMD,Advanced Micro Devices Inc.
-ADBE,Adobe Inc.
+ISRG,Intuitive Surgical
 TXN,Texas Instruments
 QCOM,Qualcomm
 AMGN,Amgen
-HON,Honeywell
 PDD,PDD Holdings
-GILD,Gilead Sciences
-APP,Applovin Corp
-ADP,ADP
+SHOP,Shopify
+ADBE,Adobe Inc.
 ARM,Arm Holdings
+AMAT,Applied Materials
+GILD,Gilead Sciences
+HON,Honeywell
+APP,Applovin Corp
+LRCX,Lam Research
+ADP,ADP
 MELI,MercadoLibre
 CMCSA,Comcast
-PANW,Palo Alto Networks
-AMAT,Applied Materials
-CRWD,CrowdStrike
 VRTX,Vertex Pharmaceuticals
-ADI,Analog Devices
 MU,Micron Technology
-LRCX,Lam Research
-MSTR,MicroStrategy Inc.
 KLAC,KLA Corporation
+PANW,Palo Alto Networks
+SNPS,Synopsys
+CRWD,CrowdStrike
+ADI,Analog Devices
 CEG,Constellation Energy
-SBUX,Starbucks
-CTAS,Cintas
 DASH,DoorDash
-MDLZ,Mondelez International
-INTC,Intel
-ABNB,Airbnb
+MSTR,MicroStrategy Inc.
+SBUX,Starbucks
 CDNS,Cadence Design Systems
+TRI,Thomson Reuters
+CTAS,Cintas
+INTC,Intel
 ORLY,O'Reilly Automotive
+MDLZ,Mondelez International
+ABNB,Airbnb
 FTNT,Fortinet
 MAR,Marriott International
-SNPS,Synopsys
-PYPL,PayPal
-WDAY,"Workday, Inc."
-ADSK,Autodesk
-MNST,Monster Beverage
-ROP,Roper Technologies
 CSX,CSX Corporation
-AXON,Axon Enterprise Inc.
-PAYX,Paychex
-AEP,American Electric Power
-CHTR,Charter Communications
-TEAM,Atlassian
-REGN,Regeneron Pharmaceuticals
 MRVL,Marvell Technology
-CPRT,Copart
-PCAR,Paccar
+PYPL,PayPal
+ADSK,Autodesk
+AEP,American Electric Power
+WDAY,"Workday, Inc."
+REGN,Regeneron Pharmaceuticals
+ROP,Roper Technologies
+AXON,Axon Enterprise Inc.
+MNST,Monster Beverage
 NXPI,NXP Semiconductors
 FAST,Fastenal
-ROST,Ross Stores
+PCAR,Paccar
+PAYX,Paychex
+TEAM,Atlassian
+DDOG,Datadog
 KDP,Keurig Dr Pepper
 EXC,Exelon
-VRSK,Verisk
-ZS,Zscaler
+ROST,Ross Stores
 CCEP,Coca-Cola Europacific Partners
-TTWO,Take-Two Interactive
-IDXX,Idexx Laboratories
-DDOG,Datadog
+CPRT,Copart
+ZS,Zscaler
 XEL,Xcel Energy
-CTSH,Cognizant
-LULU,Lululemon Athletica
+IDXX,Idexx Laboratories
+BKR,Baker Hughes
 FANG,Diamondback Energy
 TTD,Trade Desk (The)
-BKR,Baker Hughes
-EA,Electronic Arts
-ODFL,Old Dominion Freight Line
-DXCM,DexCom
-GEHC,GE HealthCare
-KHC,Kraft Heinz
-MCHP,Microchip Technology
+TTWO,Take-Two Interactive
 CSGP,CoStar Group
-ANSS,Ansys
+EA,Electronic Arts
+VRSK,Verisk
+CHTR,Charter Communications
+MCHP,Microchip Technology
+CTSH,Cognizant
+KHC,Kraft Heinz
+GEHC,GE HealthCare
 WBD,Warner Bros. Discovery
+DXCM,DexCom
+ODFL,Old Dominion Freight Line
+ON,Onsemi
+LULU,Lululemon Athletica
 CDW,CDW Corporation
 GFS,GlobalFoundries
 BIIB,Biogen
-ON,Onsemi
-MDB,MongoDB Inc.
