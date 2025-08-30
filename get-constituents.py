@@ -4,6 +4,7 @@
 import pandas as pd
 import random
 import requests
+import sys
 import time
 
 from selectorlib import Extractor
@@ -206,6 +207,9 @@ def get_constituents_ftse100():
 
 # main
 if __name__ == '__main__':
+    # track status
+    status = 0
+
     # distribute requests to bloomberg to avoid overwhelming the server
     print('Fetching the constituents of DAX...')
     for i in range(n_retries):
@@ -215,7 +219,11 @@ if __name__ == '__main__':
             df.to_json('docs/constituents-dax.json', orient='records')
         except Exception as e:
             print(f'Attempt {i+1} failed: {e}')
-            time.sleep(random.paretovariate(2) * 5)
+            if i == n_retries - 1:
+                status = 1
+                print('Failed to fetch the constituents of DAX.')
+            else:
+                time.sleep(random.paretovariate(2) * 5)
             continue
         else:
             break
@@ -226,6 +234,7 @@ if __name__ == '__main__':
         df.to_csv('docs/constituents-csi300.csv', index=False)
         df.to_json('docs/constituents-csi300.json', orient='records')
     except:
+        status = 1
         print('Failed to fetch the constituents of CSI 300.')
 
     print('Fetching the constituents of CSI 500...')
@@ -234,6 +243,7 @@ if __name__ == '__main__':
         df.to_csv('docs/constituents-csi500.csv', index=False)
         df.to_json('docs/constituents-csi500.json', orient='records')
     except:
+        status = 1
         print('Failed to fetch the constituents of CSI 500.')
 
     print('Fetching the constituents of CSI 1000...')
@@ -242,6 +252,7 @@ if __name__ == '__main__':
         df.to_csv('docs/constituents-csi1000.csv', index=False)
         df.to_json('docs/constituents-csi1000.json', orient='records')
     except:
+        status = 1
         print('Failed to fetch the constituents of CSI 1000.')
 
     time.sleep(random.paretovariate(2) * 25)  # Sleep for a while to avoid overwhelming the server
@@ -253,7 +264,11 @@ if __name__ == '__main__':
             df.to_json('docs/constituents-hsi.json', orient='records')
         except Exception as e:
             print(f'Attempt {i+1} failed: {e}')
-            time.sleep(random.paretovariate(2) * 5)
+            if i == n_retries - 1:
+                status = 1
+                print('Failed to fetch the constituents of Hang Seng Index.')
+            else:
+                time.sleep(random.paretovariate(2) * 5)
             continue
         else:
             break
@@ -264,6 +279,7 @@ if __name__ == '__main__':
         df.to_csv('docs/constituents-sse.csv', index=False)
         df.to_json('docs/constituents-sse.json', orient='records')
     except:
+        status = 1
         print('Failed to fetch the constituents of SSE.')
 
     print('Fetching the constituents of SZSE...')
@@ -272,6 +288,7 @@ if __name__ == '__main__':
         df.to_csv('docs/constituents-szse.csv', index=False)
         df.to_json('docs/constituents-szse.json', orient='records')
     except:
+        status = 1
         print('Failed to fetch the constituents of SZSE.')
 
     print('Fetching the constituents of NASDAQ 100...')
@@ -280,6 +297,7 @@ if __name__ == '__main__':
         df.to_csv('docs/constituents-nasdaq100.csv', index=False)
         df.to_json('docs/constituents-nasdaq100.json', orient='records')
     except:
+        status = 1
         print('Failed to fetch the constituents of NASDAQ 100.')
 
     print('Fetching the constituents of S&P 500...')
@@ -288,6 +306,7 @@ if __name__ == '__main__':
         df.to_csv('docs/constituents-sp500.csv', index=False)
         df.to_json('docs/constituents-sp500.json', orient='records')
     except:
+        status = 1
         print('Failed to fetch the constituents of S&P 500.')
 
     print('Fetching the constituents of Dow Jones...')
@@ -296,6 +315,7 @@ if __name__ == '__main__':
         df.to_csv('docs/constituents-dowjones.csv', index=False)
         df.to_json('docs/constituents-dowjones.json', orient='records')
     except:
+        status = 1
         print('Failed to fetch the constituents of Dow Jones.')
 
     time.sleep(random.paretovariate(2) * 25)  # Sleep for a while to avoid overwhelming the server
@@ -307,9 +327,15 @@ if __name__ == '__main__':
             df.to_json('docs/constituents-ftse100.json', orient='records')
         except Exception as e:
             print(f'Attempt {i+1} failed: {e}')
-            time.sleep(random.paretovariate(2) * 5)
+            if i == n_retries - 1:
+                status = 1
+                print('Failed to fetch the constituents of FTSE 100.')
+            else:
+                time.sleep(random.paretovariate(2) * 5)
             continue
         else:
             break
 
     print('Done.')
+
+    sys.exit(status)

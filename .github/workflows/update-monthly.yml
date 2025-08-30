@@ -7,6 +7,8 @@ on:
 
 jobs:
   build:
+    if: github.repository == 'yfiua/index-constituents'
+
     runs-on: ubuntu-latest
     
     permissions:
