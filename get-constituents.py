@@ -39,7 +39,7 @@ def get_constituents_from_csindex(url):
 def get_constituents_from_slickcharts(url):
     selector_yml = '''
                     Symbol:
-                        css: '#companyListComponent tr td:nth-of-type(3) a'
+                        css: 'div.col-lg-7 tr td:nth-of-type(3) a'
                         xpath: null
                         multiple: true
                         type: Text
