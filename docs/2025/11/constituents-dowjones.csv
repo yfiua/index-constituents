@@ -1,31 +1,31 @@
 Symbol,Name
-,"The Goldman Sachs Group, Inc."
-,Caterpillar Inc.
-,Microsoft Corporation
-,"The Home Depot, Inc."
-,American Express Company
-,Sherwin-Williams
-,UnitedHealth Group Incorporated
-,Visa Inc.
-,JPMorgan Chase & Co.
-,International Business Machines Corporation
-,Amgen Inc.
-,McDonald's Corporation
-,Apple Inc.
-,"The Travelers Companies, Inc."
-,"Salesforce, Inc."
-,"Amazon.com, Inc.amazon.com"
-,Nvidia
-,Honeywell International Inc.
-,The Boeing Company
-,Johnson & Johnson
-,3M Company
-,Chevron Corporation
-,The Procter & Gamble Company
-,The Walt Disney Company
-,Walmart Inc.
-,"Merck & Co., Inc."
-,"Cisco Systems, Inc."
-,The Coca-Cola Company
-,"Nike, Inc."
-,Verizon Communications Inc.
+GS,"The Goldman Sachs Group, Inc."
+CAT,Caterpillar Inc.
+MSFT,Microsoft Corporation
+AXP,American Express Company
+AMGN,Amgen Inc.
+HD,"The Home Depot, Inc."
+SHW,Sherwin-Williams
+V,Visa Inc.
+UNH,UnitedHealth Group Incorporated
+MCD,McDonald's Corporation
+JPM,JPMorgan Chase & Co.
+IBM,International Business Machines Corporation
+TRV,"The Travelers Companies, Inc."
+AAPL,Apple Inc.
+CRM,"Salesforce, Inc."
+AMZN,"Amazon.com, Inc.amazon.com"
+JNJ,Johnson & Johnson
+HON,Honeywell International Inc.
+NVDA,Nvidia
+BA,The Boeing Company
+MMM,3M Company
+CVX,Chevron Corporation
+PG,The Procter & Gamble Company
+WMT,Walmart Inc.
+DIS,The Walt Disney Company
+MRK,"Merck & Co., Inc."
+CSCO,"Cisco Systems, Inc."
+KO,The Coca-Cola Company
+NKE,"Nike, Inc."
+VZ,Verizon Communications Inc.

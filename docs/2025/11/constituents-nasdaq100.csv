@@ -4,99 +4,99 @@ AAPL,Apple Inc.
 MSFT,Microsoft
 AMZN,Amazon
 GOOGL,Alphabet Inc. (Class A)
-AVGO,Broadcom Inc.
 GOOG,Alphabet Inc. (Class C)
+AVGO,Broadcom Inc.
 META,Meta Platforms
 TSLA,"Tesla, Inc."
-PLTR,Palantir Technologies
 NFLX,Netflix
-AMD,Advanced Micro Devices Inc.
-ASML,ASML Holding
 COST,Costco
+ASML,ASML Holding
+PLTR,Palantir Technologies
+AMD,Advanced Micro Devices Inc.
 CSCO,Cisco
 AZN,AstraZeneca
-MU,Micron Technology
 TMUS,T-Mobile US
-SHOP,Shopify
-APP,Applovin Corp
+MU,Micron Technology
 PEP,PepsiCo
-LRCX,Lam Research
-LIN,Linde plc
-QCOM,Qualcomm
-PDD,PDD Holdings
-INTC,Intel
 ISRG,Intuitive Surgical
+LIN,Linde plc
+SHOP,Shopify
+AMGN,Amgen
+APP,Applovin Corp
+LRCX,Lam Research
 INTU,Intuit
 AMAT,Applied Materials
-ARM,Arm Holdings
-BKNG,Booking Holdings
-AMGN,Amgen
-KLAC,KLA Corporation
-PANW,Palo Alto Networks
+QCOM,Qualcomm
+INTC,Intel
+PDD,PDD Holdings
 GILD,Gilead Sciences
+BKNG,Booking Holdings
+KLAC,KLA Corporation
+ARM,Arm Holdings
 TXN,Texas Instruments
 ADBE,Adobe Inc.
+PANW,Palo Alto Networks
 CRWD,CrowdStrike
 HON,Honeywell
-MELI,MercadoLibre
-CEG,Constellation Energy
 ADI,Analog Devices
+CEG,Constellation Energy
 VRTX,Vertex Pharmaceuticals
-DASH,DoorDash
 ADP,ADP
+MELI,MercadoLibre
 CMCSA,Comcast
-CDNS,Cadence Design Systems
 SBUX,Starbucks
-SNPS,Synopsys
-MRVL,Marvell Technology
 ORLY,O'Reilly Automotive
-ABNB,Airbnb
-MSTR,MicroStrategy Inc.
-MDLZ,Mondelez International
-CTAS,Cintas
-MAR,Marriott International
-TRI,Thomson Reuters Corporation
+CDNS,Cadence Design Systems
+DASH,DoorDash
 REGN,Regeneron Pharmaceuticals
-CSX,CSX Corporation
-FTNT,Fortinet
+MAR,Marriott International
+CTAS,Cintas
+MDLZ,Mondelez International
+SNPS,Synopsys
 MNST,Monster Beverage
-PYPL,PayPal
+ABNB,Airbnb
+MRVL,Marvell Technology
 AEP,American Electric Power
+CSX,CSX Corporation
 ADSK,Autodesk
-WDAY,"Workday, Inc."
-AXON,Axon Enterprise Inc.
-DDOG,Datadog
 WBD,Warner Bros. Discovery
-NXPI,NXP Semiconductors
-ZS,Zscaler
+TRI,Thomson Reuters Corporation
+FTNT,Fortinet
+WDAY,"Workday, Inc."
+DDOG,Datadog
+IDXX,Idexx Laboratories
+PYPL,PayPal
 ROST,Ross Stores
 PCAR,Paccar
-IDXX,Idexx Laboratories
 EA,Electronic Arts
-ROP,Roper Technologies
-XEL,Xcel Energy
+MSTR,MicroStrategy Inc.
 BKR,Baker Hughes
-TTWO,Take-Two Interactive
-FAST,Fastenal
+ROP,Roper Technologies
+NXPI,NXP Semiconductors
+XEL,Xcel Energy
 EXC,Exelon
-TEAM,Atlassian
-PAYX,Paychex
-CPRT,Copart
+FAST,Fastenal
+ZS,Zscaler
+TTWO,Take-Two Interactive
 FANG,Diamondback Energy
+AXON,Axon Enterprise Inc.
 CCEP,Coca-Cola Europacific Partners
+CPRT,Copart
+PAYX,Paychex
+TEAM,Atlassian
 KDP,Keurig Dr Pepper
 CTSH,Cognizant
 GEHC,GE HealthCare
-MCHP,Microchip Technology
-CHTR,Charter Communications
 VRSK,Verisk
-ODFL,Old Dominion Freight Line
 KHC,Kraft Heinz
 CSGP,CoStar Group
-TTD,Trade Desk (The)
-DXCM,DexCom
+MCHP,Microchip Technology
+ODFL,Old Dominion Freight Line
+CHTR,Charter Communications
 BIIB,Biogen
-CDW,CDW Corporation
-ON,Onsemi
+DXCM,DexCom
 LULU,Lululemon Athletica
+TTD,Trade Desk (The)
+ON,Onsemi
 GFS,GlobalFoundries
+CDW,CDW Corporation
