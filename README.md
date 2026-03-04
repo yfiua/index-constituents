@@ -22,6 +22,10 @@ All symbols are consistent with those in [Yahoo Finance](https://finance.yahoo.c
 | dax       | DAX               | 2023/07  | [json](https://yfiua.github.io/index-constituents/constituents-dax.json) / [csv](https://yfiua.github.io/index-constituents/constituents-dax.csv)             |
 | hsi       | HSI (恒生指数)    | 2023/07  | [json](https://yfiua.github.io/index-constituents/constituents-hsi.json) / [csv](https://yfiua.github.io/index-constituents/constituents-hsi.csv)             |
 | ftse100   | FTSE 100          | 2023/07  | [json](https://yfiua.github.io/index-constituents/constituents-ftse100.json) / [csv](https://yfiua.github.io/index-constituents/constituents-ftse100.csv)     |
+| ibex35    | IBEX 35           | 2024/03  | [json](https://yfiua.github.io/index-constituents/constituents-ibex35.json) / [csv](https://yfiua.github.io/index-constituents/constituents-ibex35.csv)       |
+| ftsemib   | FTSE MIB          | 2024/03  | [json](https://yfiua.github.io/index-constituents/constituents-ftsemib.json) / [csv](https://yfiua.github.io/index-constituents/constituents-ftsemib.csv)     |
+| nifty50   | NIFTY 50          | 2024/03  | [json](https://yfiua.github.io/index-constituents/constituents-nifty50.json) / [csv](https://yfiua.github.io/index-constituents/constituents-nifty50.csv)     |
+| asx200    | S&P/ASX 200       | 2024/03  | [json](https://yfiua.github.io/index-constituents/constituents-asx200.json) / [csv](https://yfiua.github.io/index-constituents/constituents-asx200.csv)       |
 
 ## Usage
 ### Direct download
@@ -46,6 +50,14 @@ Check `requirements.txt`. Run:
 
 ```sh
 ./get-constituents.py
+```
+
+### Historical Tools
+A new script `get-constituents-historical.py` is included for "time-traveling" and backfilling data that was not previously archived in this repository. It uses the MediaWiki Revision API (for Wikipedia) and the Wayback Machine (for external sites).
+
+Example: Backfill NIFTY 50 data starting from 2008:
+```sh
+python get-constituents-historical.py --indices nifty50
 ```
 
 ## Historical data
