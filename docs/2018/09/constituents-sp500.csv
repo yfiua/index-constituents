@@ -1,0 +1,506 @@
+Symbol,Name
+,Apple Inc.
+,Microsoft Corporation
+,Amazon.com Inc.
+,Facebook Inc. Class A
+,Berkshire Hathaway Inc. Class B
+,JPMorgan Chase & Co.
+,Alphabet Inc. Class C
+,Alphabet Inc. Class A
+,Johnson & Johnson
+,Exxon Mobil Corporation
+,Bank of America Corp
+,Visa Inc. Class A
+,Wells Fargo & Company
+,UnitedHealth Group Incorporated
+,Pfizer Inc.
+,AT&T Inc.
+,Home Depot Inc.
+,Chevron Corporation
+,Intel Corporation
+,Verizon Communications Inc.
+,Cisco Systems Inc.
+,Procter & Gamble Company
+,Mastercard Incorporated Class A
+,Boeing Company
+,Merck & Co. Inc.
+,Citigroup Inc.
+,Coca-Cola Company
+,Walt Disney Company
+,Comcast Corporation Class A
+,NVIDIA Corporation
+,DowDuPont Inc.
+,Netflix Inc.
+,PepsiCo Inc.
+,AbbVie Inc.
+,Oracle Corporation
+,Walmart Inc.
+,Amgen Inc.
+,Medtronic plc
+,Adobe Systems Incorporated
+,McDonald's Corporation
+,International Business Machines Corporation
+,3M Company
+,Philip Morris International Inc.
+,Honeywell International Inc.
+,Union Pacific Corporation
+,Abbott Laboratories
+,Texas Instruments Incorporated
+,General Electric Company
+,Altria Group Inc
+,salesforce.com inc.
+,Accenture Plc Class A
+,NIKE Inc. Class B
+,QUALCOMM Incorporated
+,PayPal Holdings Inc
+,Costco Wholesale Corporation
+,Eli Lilly and Company
+,United Technologies Corporation
+,Bristol-Myers Squibb Company
+,Gilead Sciences Inc.
+,Thermo Fisher Scientific Inc.
+,Booking Holdings Inc.
+,Lowe's Companies Inc.
+,Schlumberger NV
+,Broadcom Inc.
+,Goldman Sachs Group Inc.
+,Caterpillar Inc.
+,U.S. Bancorp
+,United Parcel Service Inc. Class B
+,ConocoPhillips
+,Lockheed Martin Corporation
+,NextEra Energy Inc.
+,American Express Company
+,CVS Health Corporation
+,Starbucks Corporation
+,Biogen Inc.
+,Becton Dickinson and Company
+,PNC Financial Services Group Inc.
+,EOG Resources Inc.
+,Morgan Stanley
+,Anthem Inc.
+,TJX Companies Inc
+,American Tower Corporation
+,CSX Corporation
+,Celgene Corporation
+,Aetna Inc.
+,Allergan plc
+,Chubb Limited
+,Automatic Data Processing Inc.
+,Danaher Corporation
+,Mondelez International Inc. Class A
+,Intuitive Surgical Inc.
+,Charles Schwab Corporation
+,Occidental Petroleum Corporation
+,FedEx Corporation
+,Micron Technology Inc.
+,BlackRock Inc.
+,Walgreens Boots Alliance Inc
+,Colgate-Palmolive Company
+,CME Group Inc. Class A
+,Raytheon Company
+,Charter Communications Inc. Class A
+,Simon Property Group Inc.
+,Activision Blizzard Inc.
+,Duke Energy Corporation
+,Stryker Corporation
+,General Dynamics Corporation
+,Bank of New York Mellon Corporation
+,Intuit Inc.
+,Northrop Grumman Corporation
+,Valero Energy Corporation
+,S&P Global Inc.
+,Illumina Inc.
+,Phillips 66
+,Express Scripts Holding Company
+,Norfolk Southern Corporation
+,Capital One Financial Corporation
+,American International Group Inc.
+,Boston Scientific Corporation
+,Emerson Electric Co.
+,MetLife Inc.
+,Twenty-First Century Fox Inc. Class A
+,Deere & Company
+,General Motors Company
+,Crown Castle International Corp
+,Dominion Energy Inc
+,Target Corporation
+,Vertex Pharmaceuticals Incorporated
+,Cigna Corporation
+,Humana Inc.
+,Praxair Inc.
+,Cognizant Technology Solutions Corporation Class A
+,Southern Company
+,Applied Materials Inc.
+,Zoetis Inc. Class A
+,Intercontinental Exchange Inc.
+,Marsh & McLennan Companies Inc.
+,Prologis Inc.
+,Illinois Tool Works Inc.
+,Prudential Financial Inc.
+,Exelon Corporation
+,BB&T Corporation
+,Kimberly-Clark Corporation
+,HP Inc.
+,Electronic Arts Inc.
+,Ford Motor Company
+,Progressive Corporation
+,Ecolab Inc.
+,Marathon Petroleum Corporation
+,Delta Air Lines Inc.
+,Marriott International Inc. Class A
+,Sherwin-Williams Company
+,Analog Devices Inc.
+,LyondellBasell Industries NV
+,Air Products and Chemicals Inc.
+,Eaton Corp. Plc
+,HCA Healthcare Inc
+,Baxter International Inc.
+,Aflac Incorporated
+,Waste Management Inc.
+,Johnson Controls International plc
+,Travelers Companies Inc.
+,Ross Stores Inc.
+,Sysco Corporation
+,Williams Companies Inc.
+,Fidelity National Information Services Inc.
+,Halliburton Company
+,Aon plc
+,Allstate Corporation
+,Kraft Heinz Company
+,American Electric Power Company Inc.
+,SunTrust Banks Inc.
+,Constellation Brands Inc. Class A
+,Equinix Inc.
+,Autodesk Inc.
+,Kinder Morgan Inc Class P
+,Anadarko Petroleum Corporation
+,Southwest Airlines Co.
+,TE Connectivity Ltd.
+,Public Storage
+,State Street Corporation
+,Fiserv Inc.
+,eBay Inc.
+,Estee Lauder Companies Inc. Class A
+,Roper Technologies Inc.
+,V.F. Corporation
+,Sempra Energy
+,Regeneron Pharmaceuticals Inc.
+,Centene Corporation
+,Pioneer Natural Resources Company
+,Edwards Lifesciences Corporation
+,Moody's Corporation
+,Amphenol Corporation Class A
+,Lam Research Corporation
+,Archer-Daniels-Midland Company
+,T. Rowe Price Group
+,Corning Inc
+,Discover Financial Services
+,ONEOK Inc.
+,Yum! Brands Inc.
+,Align Technology Inc.
+,PPG Industries Inc.
+,O'Reilly Automotive Inc.
+,Dollar General Corporation
+,General Mills Inc.
+,Alexion Pharmaceuticals Inc.
+,Weyerhaeuser Company
+,McKesson Corporation
+,Public Service Enterprise Group Inc
+,Concho Resources Inc.
+,M&T Bank Corporation
+,Red Hat Inc.
+,DXC Technology Co.
+,Digital Realty Trust Inc.
+,Hewlett Packard Enterprise Co.
+,Zimmer Biomet Holdings Inc.
+,Ingersoll-Rand Plc
+,AvalonBay Communities Inc.
+,Kroger Co.
+,Fortive Corp.
+,Carnival Corporation
+,Equity Residential
+,Monster Beverage Corporation
+,Welltower Inc.
+,Aptiv PLC
+,Consolidated Edison Inc.
+,Xcel Energy Inc.
+,PACCAR Inc
+,PG&E Corporation
+,Parker-Hannifin Corporation
+,Twitter Inc.
+,Northern Trust Corporation
+,Paychex Inc.
+,NetApp Inc.
+,Synchrony Financial
+,Cummins Inc.
+,KeyCorp
+,Stanley Black & Decker Inc.
+,Rockwell Collins Inc.
+,Rockwell Automation Inc.
+,Devon Energy Corporation
+,Dollar Tree Inc.
+,CenturyLink Inc.
+,Edison International
+,IDEXX Laboratories Inc.
+,Regions Financial Corporation
+,Hilton Worldwide Holdings Inc
+,Andeavor
+,International Paper Company
+,Agilent Technologies Inc.
+,Ventas Inc.
+,WEC Energy Group Inc
+,Ameriprise Financial Inc.
+,Motorola Solutions Inc.
+,PPL Corporation
+,Cerner Corporation
+,Microchip Technology Incorporated
+,Advanced Micro Devices Inc.
+,IQVIA Holdings Inc
+,Royal Caribbean Cruises Ltd.
+,United Continental Holdings Inc.
+,AutoZone Inc.
+,Fifth Third Bancorp
+,Nucor Corporation
+,Citizens Financial Group Inc.
+,Boston Properties Inc.
+,DTE Energy Company
+,Mylan N.V.
+,Global Payments Inc.
+,Freeport-McMoRan Inc.
+,Willis Towers Watson Public Limited Company
+,Eversource Energy
+,IHS Markit Ltd.
+,Twenty-First Century Fox Inc. Class B
+,Xilinx Inc.
+,Harris Corporation
+,FleetCor Technologies Inc.
+,Western Digital Corporation
+,Best Buy Co. Inc.
+,Clorox Company
+,W.W. Grainger Inc.
+,Tyson Foods Inc. Class A
+,Cintas Corporation
+,CBS Corporation Class B
+,Verisk Analytics Inc
+,Hartford Financial Services Group Inc.
+,KLA-Tencor Corporation
+,SBA Communications Corp. Class A
+,AMETEK Inc.
+,Huntington Bancshares Incorporated
+,Kellogg Company
+,Laboratory Corporation of America Holdings
+,Textron Inc.
+,National Oilwell Varco Inc.
+,TransDigm Group Incorporated
+,Marathon Oil Corporation
+,SVB Financial Group
+,Hess Corporation
+,Comerica Incorporated
+,Skyworks Solutions Inc.
+,Newmont Mining Corporation
+,American Airlines Group Inc.
+,Fastenal Company
+,Realty Income Corporation
+,Republic Services Inc.
+,L3 Technologies Inc
+,FirstEnergy Corp.
+,Apache Corporation
+,Cardinal Health Inc.
+,Essex Property Trust Inc.
+,Seagate Technology PLC
+,ABIOMED Inc.
+,MSCI Inc. Class A
+,Expedia Group Inc.
+,Total System Services Inc.
+,Equifax Inc.
+,ResMed Inc.
+,Host Hotels & Resorts Inc.
+,E*TRADE Financial Corporation
+,Omnicom Group Inc
+,Broadridge Financial Solutions Inc.
+,D.R. Horton Inc.
+,American Water Works Company Inc.
+,ANSYS Inc.
+,Evergy Inc.
+,Ameren Corporation
+,Take-Two Interactive Software Inc.
+,VeriSign Inc.
+,Waters Corporation
+,Entergy Corporation
+,Synopsys Inc.
+,Quest Diagnostics Incorporated
+,Principal Financial Group Inc.
+,McCormick & Company Incorporated
+,Mettler-Toledo International Inc.
+,Vulcan Materials Company
+,Tapestry Inc.
+,XL Group Ltd
+,CBRE Group Inc. Class A
+,MGM Resorts International
+,AmerisourceBergen Corporation
+,Citrix Systems Inc.
+,Genuine Parts Company
+,Lincoln National Corporation
+,Noble Energy Inc.
+,Ball Corporation
+,Lennar Corporation Class A
+,Eastman Chemical Company
+,Arista Networks Inc.
+,Conagra Brands Inc.
+,WestRock Co.
+,Darden Restaurants Inc.
+,Baker Hughes a GE Company Class A
+,Ulta Beauty Inc
+,Church & Dwight Co. Inc.
+,Xylem Inc.
+,Hershey Company
+,CarMax Inc.
+,CMS Energy Corporation
+,Brown-Forman Corporation Class B
+,CA Inc.
+,Gartner Inc.
+,C.H. Robinson Worldwide Inc.
+,Vornado Realty Trust
+,Tiffany & Co.
+,TechnipFMC Plc
+,Kohl's Corporation
+,Cadence Design Systems Inc.
+,Alexandria Real Estate Equities Inc.
+,United Rentals Inc.
+,Loews Corporation
+,Arthur J. Gallagher & Co.
+,Dover Corporation
+,Expeditors International of Washington Inc.
+,Copart Inc.
+,Incyte Corporation
+,HollyFrontier Corporation
+,Cooper Companies Inc.
+,Martin Marietta Materials Inc.
+,Akamai Technologies Inc.
+,HCP Inc.
+,Henry Schein Inc.
+,EQT Corporation
+,Symantec Corporation
+,Kansas City Southern
+,Wynn Resorts Limited
+,Molson Coors Brewing Company Class B
+,Masco Corporation
+,Chipotle Mexican Grill Inc.
+,Mohawk Industries Inc.
+,Raymond James Financial Inc.
+,PVH Corp.
+,Advance Auto Parts Inc.
+,Mid-America Apartment Communities Inc.
+,CenterPoint Energy Inc.
+,J.M. Smucker Company
+,CF Industries Holdings Inc.
+,Extra Space Storage Inc.
+,F5 Networks Inc.
+,FMC Corporation
+,Hasbro Inc.
+,Alliance Data Systems Corporation
+,Cincinnati Financial Corporation
+,Cboe Global Markets Inc
+,Huntington Ingalls Industries Inc.
+,Universal Health Services Inc. Class B
+,Macy's Inc
+,Michael Kors Holdings Ltd
+,Norwegian Cruise Line Holdings Ltd.
+,Nasdaq Inc.
+,Newell Brands Inc
+,Hologic Inc.
+,Cabot Oil & Gas Corporation
+,Mosaic Company
+,Franklin Resources Inc.
+,Albemarle Corporation
+,Viacom Inc. Class B
+,UDR Inc.
+,Zions Bancorporation
+,LKQ Corporation
+,J.B. Hunt Transport Services Inc.
+,Packaging Corporation of America
+,Nektar Therapeutics
+,Tractor Supply Company
+,Varian Medical Systems Inc.
+,NRG Energy Inc.
+,International Flavors & Fragrances Inc.
+,Hormel Foods Corporation
+,Duke Realty Corporation
+,Invesco Ltd.
+,Iron Mountain Inc.
+,Juniper Networks Inc.
+,Snap-on Incorporated
+,DaVita Inc.
+,Qorvo Inc.
+,Robert Half International Inc.
+,Alliant Energy Corp
+,PerkinElmer Inc.
+,Perrigo Co. Plc
+,Regency Centers Corporation
+,Torchmark Corporation
+,Federal Realty Investment Trust
+,SL Green Realty Corp.
+,Avery Dennison Corporation
+,AES Corporation
+,Arconic Inc.
+,Interpublic Group of Companies Inc.
+,BorgWarner Inc.
+,NiSource Inc
+,Everest Re Group Ltd.
+,DENTSPLY SIRONA Inc.
+,Nielsen Holdings Plc
+,Pinnacle West Capital Corporation
+,Discovery Inc. Class C
+,Jacobs Engineering Group Inc.
+,Western Union Company
+,A. O. Smith Corporation
+,FLIR Systems Inc.
+,Whirlpool Corporation
+,DISH Network Corporation Class A
+,Affiliated Managers Group Inc.
+,Alaska Air Group Inc.
+,Allegion PLC
+,Fluor Corporation
+,Fortune Brands Home & Security Inc.
+,Unum Group
+,Cimarex Energy Co.
+,Ralph Lauren Corporation Class A
+,PulteGroup Inc.
+,Campbell Soup Company
+,Garmin Ltd.
+,Harley-Davidson Inc.
+,Kimco Realty Corporation
+,Jefferies Financial Group Inc.
+,Nordstrom Inc.
+,Pentair plc
+,Helmerich & Payne Inc.
+,Apartment Investment and Management Company Class A
+,Flowserve Corporation
+,Gap Inc.
+,Sealed Air Corporation
+,L Brands Inc.
+,People's United Financial Inc.
+,Hanesbrands Inc.
+,IPG Photonics Corporation
+,Macerich Company
+,Goodyear Tire & Rubber Company
+,Leggett & Platt Incorporated
+,Foot Locker Inc.
+,Coty Inc. Class A
+,TripAdvisor Inc.
+,Xerox Corporation
+,Assurant Inc.
+,Envision Healthcare Corp.
+,Newfield Exploration Company
+,SCANA Corporation
+,Mattel Inc.
+,H&R Block Inc.
+,Stericycle Inc.
+,Brighthouse Financial Inc.
+,News Corporation Class A
+,Quanta Services Inc.
+,Discovery Inc. Class A
+,Under Armour Inc. Class A
+,Under Armour Inc. Class C
+,News Corporation Class B
