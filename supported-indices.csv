@@ -1,7 +1,7 @@
 Code, Name, Start
 csi300, CSI 300 (沪深300), 2023/07
-csi500, CSI 500 (中证500), 2024/01
-csi1000, CSI 1000 (中证1000), 2024/01
+csi500, CSI 500 (中证500), 2024/02
+csi1000, CSI 1000 (中证1000), 2025/04
 sse, SSE (上证综指), 2023/07
 szse, SZSE (深证成指), 2023/07
 nasdaq100, NASDAQ 100, 2023/07
@@ -10,7 +10,4 @@ dowjones, Dow Jones, 2023/07
 dax, DAX, 2023/07
 hsi, HSI (恒生指数), 2023/07
 ftse100, FTSE 100, 2023/07
-ibex35, IBEX 35, 2024/03
 ftsemib, FTSE MIB, 2024/03
-nifty50, NIFTY 50, 2024/03
-asx200, S&P/ASX 200, 2024/03
